@@ -1,0 +1,802 @@
+/*
+* @Author: DELL
+* @Date:   2017-10-16 10:51:13
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-10-19 17:01:54
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 436583 */
+  src: url('http://at.alicdn.com/t/font_436583_lp5gin4xipvw8kt9.eot');
+  src: url('http://at.alicdn.com/t/font_436583_lp5gin4xipvw8kt9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_436583_lp5gin4xipvw8kt9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_436583_lp5gin4xipvw8kt9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_436583_lp5gin4xipvw8kt9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont'; 
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background-color: #444;
+}
+header main{
+	/* width: 976px; */
+	height: 40px;
+	/* background-color: red; */
+	margin: 0 auto;
+}
+header main a{
+	float: right;
+	line-height: 40px;
+	color: #a9a9a8;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background-color: #323232;
+
+}
+nav ul{
+	/* width: 976px; */
+	height: 44px;
+	/* background-color: red; */
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+}
+nav ul li a{
+	font-size: 14px;
+	color: white;
+	line-height: 44px
+}
+
+.img-liebiao{
+	width: 100%;
+	height: auto;
+}
+.img-liebiao ul{
+	width: 100%;
+	height: 100%;
+	/* background-color: blue; */
+}
+.img-liebiao ul li{
+	width: 100%;
+	height: 580px;
+	background-color: blue;
+	margin-bottom: 10px;
+}
+.img-liebiao1{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #f9f1eb;
+	padding-top: 56px;
+	position: relative;
+}
+.img-liebiao2{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #fbfbfb;
+	padding-top: 56px;
+}
+/* .img-liebiao3{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	padding-top: 56px;
+} */
+.img-liebiao ul li a:nth-child(2){
+	background-color: #fbfbfb;
+}
+.img-liebiao-word1{
+	text-align: center;
+	color: #10100f;
+}
+.img-liebiao-word2{
+	text-align: center;
+	color: #10100f;
+}
+.img-liebiao-img{
+	background: url('../img/1.jpg') no-repeat center center;
+	background-size: 561px 395px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: 0;
+}
+.img-liebiao-word10{
+	margin: 0 auto;
+}
+.img-liebiao-img2{
+	margin: 50px auto;
+}
+.pingguo-liebiao{
+	width: 100%;
+	height: auto;
+	/* margin-top: 10px; */
+}
+.pingguo-liebiao ul{
+	width: 100%;
+	height: auto;
+	background-color: blue;
+}
+.pingguo-liebiao ul li{
+	display: block;
+	width: 50%;
+	height: 580px;
+	background-color: #fbfbfb;
+	float: left;
+	border-right: 6px solid white;
+	border-left: 12px solid white;
+	border-bottom: 12px solid white;
+}
+.pingguo-liebiao ul li:nth-child(2n){
+	border-left: 6px solid white;
+	border-right: 12px solid white;
+}
+.pingguo-liebiao ul li:nth-child(3){
+	border-bottom: 0;
+}
+.pingguo-liebiao ul li:nth-child(4){
+	border-bottom: 0;
+}
+.pingguo-liebiao ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pingguo-liebiao-word{
+	/* margin-top: 51px; */
+	margin-left: auto;
+	text-align: center;
+	color: #10100f;
+}
+.pingguo-liebiao-word1{
+	margin-top: 5px;
+	margin-left: auto;
+	text-align: center;
+	color: #10100f;
+}
+.pingguo-img{
+	margin-top:30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pingguo-img1{
+	width: 553px;
+	height: 392px;
+	background: url('../img/watchos_large1.jpg') no-repeat center center;
+	background-size: 553px 392px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pingguo-img3{
+	width: 496px;
+	height: 305px;
+	background: url('../img/trade_up_large1.png')no-repeat center center;
+	background-size: 496px 305px;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pingguo-img4{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	width: 100%;
+	height: 500px;
+	background-color: #f2f2f2;
+	float: left;
+	margin-top: 10px;
+}
+.di-nei{
+	/* width: 976px; */
+	height: 100%;
+	/* background-color: red; */
+	margin: 0 auto;
+	padding-left: 20px;
+}
+.di-nei-top{
+	width: 100%;
+	height: auto;
+	/* background-color: red; */
+	display: flex;
+}
+.di-nei-top ul{
+	width: 20%;
+	height: 100%;
+	/* background-color: blue; */
+	padding-top: 42px;
+}
+.di-nei-top ul li{
+	font-size: 12px;
+	color: #333;
+	padding-bottom: 7px;
+}
+.di-nei-top ul li a{
+	color: #555578;
+}
+.di-nei-top ul li a:hover{
+	text-decoration:underline;
+}
+.di3{
+	width: 100%;
+	height: 422px;
+	background-size: 311px;
+	padding-top: 20px;
+
+}
+.di3 li{
+	width: 100%;
+	/* height: 17px; */
+	padding: 10px 0;
+	border-bottom: 1px solid #b0b0b0;
+	font-size: 12px;
+	/* margin-left: 20px; */
+}
+.di3 li a{
+	color: #333;
+}
+.di3 li a i{
+	float: right;
+}
+.di-bottom{
+	/* width: 100%; */
+	height: 107px;
+	/* background-color:  blue; */
+	padding: 34px 0 21px 0;
+}
+.di-bottom1{
+	width: 100%;
+	/* height: 32px; */
+	padding-bottom: 6px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #b0b0b0;
+	border-bottom: 1px solid #b0b0b0;
+}
+.di-bottom2{
+	width: 100%;
+	/* height: 22px; */
+	font-size: 12px;
+	margin-top: 6px;
+	/* color: #b0b0b0; */
+	float: left;
+	line-height: 16px;
+}
+.di-bottom2 ul{
+	float: left;
+	margin: 0 auto;
+	margin-left: 30px;
+}
+.di-bottom2 ul li{
+	float: left;
+	border-right: 1px solid #b0b0b0;
+	padding: 0 8px;
+}
+.di-bottom2 ul li:last-child{
+	padding: 0 8px;
+	border: 0;
+}
+.di-bottom3{
+	width:260px;
+	height: 16px;
+	float: left;
+	color:#b0b0b0;  
+}
+.di-bottom2 ul a{
+	color:#b0b0b0;
+}
+.di-bottom2 ul a:hover{
+	text-decoration:underline;
+}
+.di-bottom-img{
+	width: 60px;
+	height: 20px;
+	font-size: 12px;
+	float: right;
+}
+.di-bottom-img img{
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.di-bottom-zhongguo{
+	width: 40px;
+	height: 16px;
+	float: right;
+	font-size: 12px;
+}
+.di-bottom-zhongguo a{
+	color: #b0b0b0;
+}
+.di-bottom-zhongguo a:hover{
+	text-decoration:underline;
+}
+.di-bottom4{
+	width: 100%;
+	height: 16px;
+	font-size: 13px;
+	color: #b0b0b0;
+}
+.di4{
+	width: 100%;
+	height: 150px;
+	/* background-color:  blue; */
+
+}
+.di-bottom2{
+	width: 100%;
+	height: 32px;
+	font-size: 12px;
+	color: #b0b0b0;
+	padding-top: 7px;
+	margin-bottom: 7px;
+}
+.di-bottom-img1{
+	width: 60px;
+	height: 20px;
+	font-size: 12px;
+	/* float: right; */
+}
+.di-bottom-img1 img{
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.di-bottom-zhongguo{
+	width: 40px;
+	height: 16px;
+	font-size: 12px;
+	float: left;
+}
+.di-bottom7{
+	width:260px;
+	height: 16px;
+	float: left;
+	color:#b0b0b0;  
+	margin-top: 20px;
+}
+.di5{
+	/* width: 20%; */
+	height: 12px;
+	/* background-color: green; */
+	margin-top: 90px;
+	/* float: left; */
+}
+.di5 ul{
+	width: 294px;
+	display: flex;
+	/* padding-right: 50px; */
+}
+.di5 ul li{
+	/* width: 20%; */
+	float: left;
+	border-bottom: 0;
+	padding: 0px 2px;
+	border-right: 1px solid #b0b0b0;
+	line-height: 20px;
+}
+.di5 ul li:first-child{
+	padding-left: 0;
+}
+.di5 ul li:last-child{
+	border-right: 0;
+}
+.di5 ul li a{
+	color: #b0b0b0;
+}
+.di-bottom6{
+	width: 100%;
+	height: 16px;
+	font-size: 13px;
+	color: #b0b0b0;
+	margin-top: 10px;
+}
+@media screen and (min-width: 1024px){
+	header main{
+		width: 976px;
+	}
+	nav ul{
+		width: 976px;
+	}
+	.nav1{
+		display: block;
+	}
+	.nav2{
+		display: none;
+	}
+	.img-liebiao-word1{
+	width: 100%;
+	height: 60px;
+	font-size: 52px;
+	}
+	.img-liebiao-word2{
+	width: 100%;
+	height: 30px;
+	font-size: 28px;
+	}
+	.img-liebiao-img{
+	width: 561px;
+	height: 395px;
+	background: url('../img/1.jpg') no-repeat center center;
+	background-size: 561px 395px;
+	}
+	.img-liebiao-img1{
+	width: 909px;
+	height: 194px;
+	background: url('../img/4.jpg') no-repeat center center;
+	background-size:909px 194px;
+	margin: 100px auto;
+	}
+	.img-liebiao-word10{
+	width: 182px;
+	height: 72px;
+	background: url('../img/pinguo1.png') no-repeat center center;
+	background-size: 182px 72px;
+	}
+	.img-liebiao-img2{
+	width: 750px;
+	height: 324px;
+	background: url('../img/biao1.jpg');
+	background-size: 750px 324px;
+	margin: 50px auto;
+	}
+	.pingguo-liebiao ul li{
+	display: block;
+	width: 50%;
+	height: 580px;
+	/* background-color: blue; */
+	float: left;
+	border-right: 6px solid white;
+	border-left: 12px solid white;
+	border-bottom: 12px solid white;
+	}
+	.pingguo-liebiao ul li:nth-child(2n){
+	border-left: 6px solid white;
+	border-right: 12px solid white;
+	overflow: hidden;
+	}
+	.pingguo-liebiao-word{
+	width: 100%;
+	height: 44px;
+	margin-top: 43px;
+	margin-left: auto;
+	font-size: 40px;
+	text-align: center;
+	color: #10100f;
+	}
+	.pingguo-liebiao-word1{
+	width: 100%;
+	height: 28px;
+	/* background-color: orange; */
+	margin-top: 20px;
+	margin-left: auto;
+	font-size: 20px;
+	text-align: center;
+	color: #10100f;
+	}
+	.pingguo-img{
+	width: 516px;
+	height: 369px;
+	background: url('../img/ios2 (2).jpg') no-repeat center center;;
+	background-size: 516px 369px;
+	margin-top:30px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.pingguo-img1{
+	width: 553px;
+	height: 392px;
+	background: url('../img/watchos_large1.jpg') no-repeat center center;
+	background-size: 553px 392px;
+	}
+	.pingguo-img4{
+	width: 499px;
+	height: 292px;
+	background: url('../img/macos_high_sierra_small1.jpg')no-repeat center center;
+	background-size: 496px 305px;
+	margin-top: 70px;
+	}
+	.di-nei{
+	width: 976px;
+	height: 100%;
+	/* background-color: red; */
+	margin: 0 auto;
+	}
+	.di-nei-top{
+	width: 100%;
+	/* height: auto; */
+	/* background-color: red; */
+	display: block;
+	display: flex;
+	}
+	.di-nei-top ul{
+	width: 20%;
+	height: 100%;
+	/* background-color: blue; */
+	padding-top: 42px;
+	}
+	.di3{
+		display: none;
+	}
+	.di-bottom{
+	/* width: 100%; */
+	/* height: 107px; */
+	/* background-color:  blue; */
+	padding: 34px 0 21px 0;
+	display: block;
+	}
+}
+@media screen and (max-width: 1024px){
+	header main{
+		padding-right: 22px;
+	}
+	nav ul{
+		padding:0 22px;
+	}
+	.nav1{
+		display: block;
+	}
+	.nav2{
+		display: none;
+	}
+	.img-liebiao-word1{
+	width: 100%;
+	height: 48px;
+	font-size: 44px;
+	}
+	.img-liebiao-word2{
+	width: 100%;
+	height: 25px;
+	margin-top: 10px;
+	font-size: 22px;
+	}
+	.img-liebiao-img{
+	width: 549px;
+	height: 338px;
+	background: url('../img/3.jpg') no-repeat center center;
+	background-size: 549px 338px;
+	}
+	.img-liebiao-img1{
+	width: 704px;
+	height: 148px;
+	background: url('../img/5.jpg') no-repeat center center;
+	background-size:704px 148px;
+	margin: 103px auto;
+	}
+	.img-liebiao-word10{
+	width: 144px;
+	height: 56px;
+	background: url('../img/pingguo2.png') no-repeat center center;
+	background-size: 144px 56px;
+	}
+	.pingguo-liebiao ul li{
+	display: block;
+	width: 50%;
+	height: 508px;
+	float: left;
+	border-right: 6px solid white;
+	border-left: 12px solid white;
+	border-bottom: 12px solid white;
+	}
+	.pingguo-liebiao ul li:nth-child(2n){
+	border-left: 6px solid white;
+	border-right: 12px solid white;
+	}
+	.img-liebiao-img2{
+	width: 750px;
+	height: 324px;
+	background: url('../img/biao2.jpg');
+	background-size: 750px 324px;
+	margin: 50px auto;
+	}
+	.pingguo-liebiao-word{
+	width: 100%;
+	height: 40px;
+	margin-top: 43px;
+	margin-left: auto;
+	font-size: 36px;
+	text-align: center;
+	color: #10100f;
+	}
+	.pingguo-liebiao-word1{
+	width: 100%;
+	height: 24px;
+	/* background-color: orange; */
+	margin-top: 30px;
+	margin-left: auto;
+	font-size: 18px;
+	text-align: center;
+	color: #10100f;
+	}
+	.pingguo-img{
+	width: 362px;
+	height: 261px;
+	background: url('../img/ios2 (2).jpg') no-repeat center center;;
+	background-size: 362px 261px;
+	}
+	.pingguo-img1{
+	width: 350px;
+	height: 270px;
+	background: url('../img/watchos_large1.jpg') no-repeat center center;
+	background-size: 350px 270px;
+	}
+	.pingguo-img3{
+	width: 380px;
+	height: 280px;
+	background: url('../img/trade_up_large1.png')no-repeat center center;
+	background-size: 496px 305px;
+	}
+	.pingguo-img4{
+	width: 332px;
+	height: 194px;
+	background: url('../img/macos_high_sierra_medium2.jpg')no-repeat center center;
+	background-size: 332px 194px;
+	margin-top: 70px;
+	}
+	.di-nei{
+	/* width: 976px; */
+	height: 100%;
+	/* background-color: red; */
+	margin: 0 auto;
+	}
+	.di-nei-top{
+	/* width: 100%; */
+	/* height: auto; */
+	/* background-color: red; */
+	display: block;
+	display: flex;
+	/* margin-left: 22px; */
+	}
+	.di-nei-top ul{
+	/* width: 20%; */
+	height: 100%;
+	/* background-color: blue; */
+	padding-top: 42px;
+	}
+	.di3{
+		display: none;
+	}
+	.di-bottom{
+	/* width: 100%; */
+	/* height: 107px; */
+	/* background-color:  blue; */
+	padding: 34px 0 21px 0;
+	display: block;
+	}
+}
+@media screen and (max-width:768px){
+	.nav1{
+		display: none;
+	}
+	.nav2{
+		display: block;
+	}
+	.img-liebiao-word1{
+	width: 100%;
+	height: 36px;
+	font-size: 32px;
+	}
+	.img-liebiao-word2{
+	width: 100%;
+	height: 26px;
+	margin-top: 6px;
+	font-size: 19px;
+	}
+	.img-liebiao-img{
+	width: 267px;
+	height: 357px;
+	background: url('../img/2.jpg') no-repeat center center;
+	background-size: 267px 357px;
+	}
+	.img-liebiao-img1{
+	width: 167px;
+	height: 333px;
+	background: url('../img/6.jpg') no-repeat center center;
+	background-size:167px 333px;
+	margin: 103px auto;
+	}
+	.img-liebiao-word10{
+	width: 108px;
+	height: 46px;
+	background: url('../img/pingguo2.png') no-repeat center center;
+	background-size: 108px 46px;
+	}
+	.pingguo-liebiao ul li{
+	display: block;
+	width: 100%;
+	height: 500px;
+	/* background-color: blue; */
+	float: left;
+	border-right: 0px solid white;
+	border-left: 0px solid white;
+	border-bottom: 12px solid white;
+	}
+	.pingguo-liebiao ul li:nth-child(2n){
+	border-left: 0px solid white;
+	border-right: 0px solid white;
+	}
+	.img-liebiao-img2{
+	width: 302px;
+	height: 338px;
+	background: url('../img/biao3.jpg');
+	background-size: 302px 338px;
+	margin: 50px auto;
+	}
+	.pingguo-liebiao-word{
+	width: 100%;
+	height: 36px;
+	margin-top: 43px;
+	margin-left: auto;
+	font-size: 26px;
+	text-align: center;
+	color: #10100f;
+	}
+	.pingguo-liebiao-word1{
+	width: 100%;
+	height: 22px;
+	/* background-color: orange; */
+	margin-top: 5px;
+	margin-left: auto;
+	font-size: 18px;
+	text-align: center;
+	color: #10100f;
+	}
+	.pingguo-img{
+	width: 250px;
+	height: 150px;
+	background: url('../img/ios3.jpg') no-repeat center center;;
+	background-size: 250px 150px;
+	margin-top:68px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.pingguo-img1{
+	width: 300px;
+	height: 200px;
+	background: url('../img/watchos_large1.jpg') no-repeat center center;
+	background-size: 300px 200px;
+	margin-top: 68px;
+	}
+	.pingguo-img3{
+	width: 280px;
+	height: 180px;
+	background: url('../img/trade_up_large1.png')no-repeat center center;
+	background-size: 280px 180px;
+	}
+	.pingguo-img4{
+	width: 300px;
+	height: 150px;
+	background: url('../img/macos_high_sierra_medium2.jpg')no-repeat center center;
+	background-size: 300px 150px;
+	margin-top: 70px;
+	}
+	.di-nei-top{
+	/* width: 100%; */
+	/* height: 323px; */
+	/* background-color: red; */
+	display: flex;
+	padding: 0 20px;
+	display: none;
+	}
+	.di3{
+		display: block;
+	}
+	.di-bottom{
+	/* width: 100%; */
+	/* height: 107px; */
+	/* background-color:  blue; */
+	padding: 34px 0 21px 0;
+	display: none;
+	}
+}
